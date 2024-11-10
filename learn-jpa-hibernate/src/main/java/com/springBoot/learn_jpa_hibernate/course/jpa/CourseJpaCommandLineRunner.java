@@ -14,7 +14,7 @@ public class CourseJpaCommandLineRunner implements CommandLineRunner {
 	
 	@Override
 	public void run(String... args) throws Exception {
-		repo.insert(new Course(2, "Learn Python", "Sushma"));
+		repo.insert(new Course(2, "Learn Python", "Arun"));
 		System.out.println(repo.findById(1));
 		
 	}
